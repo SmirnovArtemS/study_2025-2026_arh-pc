@@ -36,7 +36,7 @@ license: "CC BY"
 ## Настройка GitHub
 
 
-URL https://github.com/SmirnovArtemS/study_2025-2026_arh-pc.git
+URL: https://github.com/SmirnovArtemS/study_2025-2026_arh-pc.git
 
 ## Базовая настройка git
 
