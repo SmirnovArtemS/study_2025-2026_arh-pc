@@ -6,7 +6,7 @@ msg3: DB 'Сообщение № 3',0
 SECTION .text
 GLOBAL _start
 _start:
-jmp _label2
+jmp _label3
 _label1:
 mov eax, msg1 ; Вывод на экран строки
 call sprintLF ; 'Сообщение № 1'
@@ -18,5 +18,6 @@ jmp _label1
 _label3:
 mov eax, msg3 ; Вывод на экран строки
 call sprintLF ; 'Сообщение № 3'
+jmp _label2
 _end:
 call quit ; вызов подпрограммы завершения
